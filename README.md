@@ -7,7 +7,7 @@ CuraEngine, stream the G-code line by line, pause, stop and change settings whil
 - `send_gcode.py`: streams G-code over `/dev/ttyUSB0` at 115200 baud, waits for `ok`, stops on errors.
 - `check_overhang.py`: reports how much of an STL would need support.
 - `README.md` (this file): the print procedure, step by step.
-- `COMO-FUNCIONA.md`: how it works, what went wrong, and whether a desktop program is worth writing (in Portuguese).
+- `HOW-IT-WORKS.md`: how the serial control works, what went wrong along the way, and whether a desktop program is worth writing.
 
 Requirements: Python 3 with `pyserial`, CuraEngine (the Cura definitions are expected in `/usr/share/cura/resources/definitions`),
 and your user in the `dialout` group.
